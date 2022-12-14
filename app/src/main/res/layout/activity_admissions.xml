@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admissions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/courses_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Courses offered"
+        android:textAlignment="center"
+        android:textColor="#050000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ugc_courses_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Under Graduate Full Time Courses ( General Shift )"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/courses_img"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            app:srcCompat="@drawable/courses" />
+
+        <TextView
+            android:id="@+id/eligiblity_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="ELIGIBILITY"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eligiblity_info_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="1. For Maharashtra State Candidature Candidate\n\n
+
+    The Candidate should be an Indian National;\n\n
+
+    Passed HSC with Physics and Mathematics subjects as a compulsory subject along with one of the Chemistry or Biotechnology or Biology or Technical/Vocational Subjects or Computer Science or Information Technology or Informatics Practices or Agriculture or Engineering Graphics or Business Studies and obtained at least 45% (134 marks) in the above subjects taken together for Open category  (40% (119 marks) for reserved category, EWS and PWD candidates belonging to Maharashtra State) \n\n
+
+    Non Zero Score in MHT-CET 2020 or Non zero positive score in JEE (Main) Paper-I 2020\n\n
+    OR\n\n
+    Passed Diploma in Engineering and Technology and obtained at least  45 % marks (40% for reserved category, EWS and PWD).\n\n
+
+ 2. All India Candidature Candidates \n\n
+
+    The Candidate should be an Indian National;\n\n
+
+    Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical Vocational subject or Computer Science or Information Technology or Informatics Practices or Agriculture or Engineering Graphics or Business Studies and obtained at least 45% (134 marks)  ((40% (119 marks) for reserved category, EWS and PWD candidates belonging to Maharashtra State) in the above subjects taken together; and should obtain non zero positive score in JEE (Main) B.E./B.Tech or the candidate should have appeared in all the subjects in CET and should obtain non zero score in CET conducted by the Competent Authority. \n\n
+    Non Zero Score in MHT-CET 2020 or Non zero positive score in JEE (Main) Paper-I 2020 \n\n
+    OR\n\n
+    Passed Diploma in Engineering and Technology and obtained at least  45 % marks (40% for reserved category, EWS and PWD).\n\n
+
+ (For further details, refer MHT CET Cell / DTE Website : www.dtemaharashtra.gov.in )"
+            android:textAlignment="viewStart"
+            android:textColor="#050000"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/seats_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Seats Distribution"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/seats_img"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/seats" />
+        <TextView
+            android:id="@+id/note_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Note : Reservation of seats as per norms of Government of Maharashtra for CAP round"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/documents_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Documents Required"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/documents_img"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:srcCompat="@drawable/document" />
+
+        <TextView
+            android:id="@+id/scholership_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Scholarships Schemes Offered by  State Govt. / Central Govt."
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/scholership_img"
+            android:layout_width="match_parent"
+            android:layout_height="880dp"
+            app:srcCompat="@drawable/scholership" />
+
+        <TextView
+            android:id="@+id/enquiry_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Admission Enquiry"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enquiry_tele_all_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Telephone : 02328-224012/13"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enquiry_mail_all_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="E-mail ID : admission@tkietwarana.ac.in"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enquiry_all_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Counselling : At Admission Office, TKIET Warananagar"
+            android:textAlignment="center"
+            android:textColor="#050000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androtechbuddy.tkiet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TKIET"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".EditProfile" />
+        <activity android:name=".projects" />
+        <activity android:name=".my_account" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".civil_useful_links" />
+        <activity android:name=".mechanical_useful_links" />
+        <activity android:name=".electrical_useful_links" />
+        <activity android:name=".chemical_useful_links" />
+        <activity android:name=".computer_useful_links" />
+        <activity android:name=".useful_site" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".contact_us" />
+        <activity android:name=".about_developer" />
+        <activity android:name=".facility" />
+        <activity android:name=".admissions" />
+        <activity android:name=".department" />
+        <activity android:name=".acedamics" />
+        <activity android:name=".management" />
+        <activity android:name=".about_tkiet" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".webActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

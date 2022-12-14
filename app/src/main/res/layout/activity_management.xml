@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contact_us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Founder"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/founder" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="SAHAKARMAHARSHI Late Shri.Tatyasaheb Kore (1914-1994)"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_founder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="⦾ A freedom fighter and social reformer.
+	                           \n\n⦾ A close associate of Former Dy.Prime Minister Late Yashwantrao Chavan.
+	                           \n\n⦾ A strong believer in Co-operative movement.
+	                           \n\n⦾ A great visionary who believed in “Rural Development through Co-operative Movement.”
+	                           \n\n⦾ A leader who changed barren land into a prosperous area comprising of 70 villages by establishing Warana Co-operative Complex."
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chairman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Chairman"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/chairman" />
+
+            <TextView
+                android:id="@+id/adminstrative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Administrative Officer Desk"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/administrative" />
+
+            <TextView
+                android:id="@+id/adminstrative_officer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Administrative Officer - Dr. Vasanti Rasam"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adminstrative_officer_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Welcome to TKIET, Warananagar. \n\n\tFor more than three decades, TKIET has served as our nation’s flagship comprehensive institution of higher education. We are advancing institute’s tradition of excellence in Engineering and Technology Education through high quality programs in teaching, research, on-site industry executive training and service. We continue to rank among the nation’s best intensive industry interactive Engineering school. \n\n\tOur campus is set in a beautiful landscape with a greenary living environment that encourages interaction and camaraderie. Our distinguished faculty, with extensive ties to leading engineering and research community, are able to bring the best scientist and engineers into our programs as visiting faculty and guest speakers. \n\n\tOur primary goal is to become one of the most prominent and excellent educational Institute in the world. We are fortunate to have a talented, highly committed teaching and support staff here to ensure the learning environment of our students is the best it can be. Our faculties are renowned scholars and accomplished practitioners who are actively engaged in the academic excellence and innovative research ideas of the modern world. Our students are innovators, engineers, managers, great scientists, entrepreneurs, and aspiring leaders – from every age group and are located at every corner of the country. Our unique teaching and learning process with a proper blend of theory and practice crosses the boundaries of nations towards industry-readiness and global excellence. \n\n\tWe seek to prepare our young students with the very best preparation for life at TKIET. We also seek to instill in our students a passion for learning that will bring the knowledge and understanding required for a positive contribution to the community. \n\n\tTKIET is a vibrant learning community that encourages a three-way partnership between students, parents and the college. The strength of this partnership is reflected in the success of our students. \n\n\tI would be pleased to welcome you to TKIET at any time. We would be delighted to be involved in the education of your child and to foster in her/him the value based education. \n\n\tThank you for considering us as the engineering school for your child. \n\nWith Best Wishes...!!!
+                \n Administrative Officer\nS.W.V.S.M Warananagar."
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/runby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Institutes Run by Shree Warana Vibhag Shikshan Mandal"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/runbyinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="SHREE WARANA VIDYA MANDIR – An ideal school for an ideal valley with an ideal idea. Shree Warana Vidyamandir is offering education in Marathi medium from Balwadi to 4th standard. The school emphasises on character building and discipline.\n\n
+
+
+SHREE WARANA VIDYALAYA – A model for Gurukul System\n\n
+
+Shree Warana Vidyalaya, which is a residential school from 5th to 10th standard, has attracted several people for its unique educational system. Getting admission at the residential school is becoming a prestigious issue, which speaks the standard of the school.\n\n
+
+
+TATYASAHEB KORE ENGLISH ACADEMY – Preparing the kids to the modern roaring technologies of the world. To compete anywhere in the world, today, a disciplined English medium education has become essential. To prepare the kids of the Warana valley to the forthcoming challenges, Tatyasaheb Kore English Academy has started functioning since 1994. It has English medium education starting from lower Kinder Garter to High school level.\n\n
+
+
+TATYASAHEB KORE MILITARY ACADEMY – Unique of its kind\n\n
+
+A unique kind of Sainik School was established in 1997 to teach the individual, the necessity of disciplined education. In its preliminary stages itself, it has achieved many successes with its disciplinary acts. This Sainik School is striving to prepare the students who can entirely take up the responsibility of protecting their Nation and motherland.\n\n
+
+
+YASHWANT RAO CHAVAN WARANA MAHAVIDYALAYA – Inspiring the rural youth\n\n
+
+Yashwantrao Chavan Warana Mahavidyalaya with its Arts, Science and Commerce faculties is attracting the rural youth and guiding them to shape their future. With its highly qualified staff, it is commanding respect from the people around.\n\n
+
+
+TATYASAHEB KORE INDUSTRIAL TRAINING INSTITUTE – Quenching the thirst of the technical mass. An industrial training institute [I.T.I.] was established with the sole intention of imparting the technical education to the rural youth who have passed 10th standard. It is offering training to the students in the field of Welding, fitting, electrical and sheet metal. After the completion of the course, practical training is also given to the students in the Training Cum Production Centre [T.C.P.C.]. Soon it is planning to start Machinist and Turner courses.\n\n
+
+
+TATYASAHEB KORE TRAINING CUM PRODUCTION CENTRE – A laboratory where things take shape. A Training Cum Production Centre [T.C.P.C.] was set up to absorb the newly trained youth in I.T.I. Quality based materials take shape in this workshop. The youth after a few years of practical training in TCPC is ready to face the challenges of the practical field. Shortly it is proposing to have a tie-up with M/s. Godrej and Co. for quality products."
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AICTE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="AICTE Approval Documents"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AICTE1992"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="AICTE1992"
+                android:text="AICTE Approval Letter 1992 "
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AICTE_report_2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="AICTE_report2018"
+                android:text="AICTE LOA and EOA report up to 2018 "
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AICTE_2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="AICTE2018"
+                android:text="AICTE Approval Letter 2018"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/AICTE219"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="AICTE2019"
+                android:text="AICTE Approval Letter 2019 "
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AICTE2020"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="AICTE2020"
+                android:text="AICTE Approval Letter 2020 "
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

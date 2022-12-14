@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colour1">#996300</color>
+    <color name="colour2">#FF9800</color>
+    <color name="colour3">#ffa500</color>
+    <color name="teal_200">#ffc966</color>
+    <color name="teal_700">#ffe4b2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="custom_react">#1b1b1b</color>
+    <color name="custom_react_txt">#9e9e9e</color>
+    <color name="my_account_bg">#1b1b1b</color>
+    <color name="btn_color">#FF9800</color>
+
+    <color name="red_400">#EF5350</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_40">#999999</color>
+    <color name="red_300">#E57373</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="orange_600">#FB8C00</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="blue_600">#1E88E5</color>
+
+    <color name="grey_5">#f2f2f2</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="indigo_A700">#304FFE</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_light_20">#33FFFFFF</color>
+
+    <color name="lightGray">#F2F2F2</color>
+
+    <color name="disabledBtnBg">#999999</color>
+</resources>

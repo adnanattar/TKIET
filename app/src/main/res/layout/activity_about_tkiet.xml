@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".about_tkiet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/tkiet2" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="○ Tatyasaheb Kore Institute of Engineering and Technology (TKIET) established in 1983. \n\n○ The Institute is located at Warananagar, 30 km away from Kolhapur a district headquarter and 10 kms to the west from Kini-Wathar on Pune-Bangalore National Highway NH-4. \n\n○ TKIET has emerged as one of the leading technological institutes in Western Maharashtra. \n\n○ The Institute has a Lush-green campus spread over 30 acres in the picturesque foothill of Lord Jyotiba and historical Panhala Fort to the north-east."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_college"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/btn_color"
+        android:padding="5dp"
+        android:text="Organization Structure"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/principle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Principal : Dr. Sunil V. Anekar \nEducation : M.Tech. Ph.D"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/organization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="⦿ Registrar : Mr. D. S. Thombare. \n\n⦿ Deans \n\n○ Accadamics
+
+- Dr. M S Duttaragaon \n\n○ Research and Development
+
+-Dr. M R Jadhav\n\n○ Student Affairs
+
+- Dr. G V Patil\n\n○ Planning and Development
+
+-Dr. D M Patil \n\n○ Control of Examinations
+
+-Dr. M B Kulkarni \n\n⦿ Head of Departments \n\n○ Mechanical
+
+–  Dr. A.S.Todkar. \n\n○ Chemical
+
+-  Prof. S.T.Patil. \n\n○ Civil
+
+– Prof. L.B.Patkure. \n\n○ Electronics and Telecommunication
+
+- Prof. C.P.Shinde. \n\n○ Computer Science and Engineering
+
+-Prof. A.G. Patil. \n\n○
+
+Applied Science(First Year Engg.)
+
+- Dr.D.N.Mane. \n\n⦿ Library - Dr. A. T. Lad. \n\n⦿ Gymkhana – Mr. B. I. Kurane. \n\n⦿ System and Network Support – Mr. N. B. Jadhav. \n\n⦿ Office – Mr. Vilas. Jadhav. \n\n⦿ Cell In-charges \n\n○ Training and Placement – Prof. P. J. Patil
+
+
+ \n\n○ Career Development Cell – Prof. S. V. Lingaraju. \n\n○ Industry Interaction Cell – Prof. A. R. Chougule \n\n○ Alumni – Prof. B. R. Bagane. \n\n⦿ Facilities \n\n○ Language Lab – Dr. Mark Monis.  \n\n○ Hostel – Mr. D. S. Thombare.  \n\n○ Sports – Mr. B. I. Kurane.  \n\n○ Canteen – Mr. D. S. Thombare."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Copyright © 2021 App Developed By AndroTechBuddy"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

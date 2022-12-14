@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".facility">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/facility_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="TKIET Hostel Facility"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/boys_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Boys' Hostel Rector"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/thombare_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/thombare" />
+
+            <TextView
+                android:id="@+id/thomnare_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Mr.D.S.Thombare"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thombare_call_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Contact No: 9764997549"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thombare_mail_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Email Id: registrar@tkietwarana.ac.in"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/girls_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Girls' Hostel Rector"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/patil_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/patil" />
+
+            <TextView
+                android:id="@+id/patil_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Dr.V.D.Patil"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patil_call_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Contact No: 9421106538"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patil_mail_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Email Id: vibhavari.patil@tkietwarana.ac.in"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Ragging Free Environment."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="⦿ The institute provides 100 % accommodation to all the admitted boys and girls at reasonable fees. \n\n⦿ The boys hostel campus, situated close to the college campus consists of 09 well furnished hostel buildings accommodating about 1179 boys and 02 well furnished hostel buildings accommodating about 742 girls."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/hostel_capacity_img"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="580dp"-->
+            <!--                app:srcCompat="@drawable/hostel_capacity" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hostel Capacity"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"></TextView>
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape_header"
+                        android:padding="5dp"
+                        android:text="Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#090000"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape_header"
+                        android:padding="5dp"
+                        android:text="No of Hostels"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape_header"
+                        android:padding="5dp"
+                        android:text="Capacity"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Boys"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="07"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="747"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Girls"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="02"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="344"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <!--            <TableRow-->
+                <!--                android:id="@+id/tableRow4"-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content">-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/textView1"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:background="@drawable/cell_shape"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="TextView"-->
+                <!--                    android:textAppearance="?android:attr/textAppearanceMedium"></TextView>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/textView1"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:background="@drawable/cell_shape"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="TextView"-->
+                <!--                    android:textAppearance="?android:attr/textAppearanceMedium"></TextView>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/textView1"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:background="@drawable/cell_shape"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="TextView"-->
+                <!--                    android:textAppearance="?android:attr/textAppearanceMedium"></TextView>-->
+
+                <!--            </TableRow>-->
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hostel And Mess Fees For First Year And Second Year Students"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"></TextView>
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape_header"
+                        android:padding="5dp"
+                        android:text="For"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#090000"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape_header"
+                        android:padding="5dp"
+                        android:text="Types"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape_header"
+                        android:padding="5dp"
+                        android:text="Fees"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Boys Hostel First Year"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Type A \n\nType B"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="*35,530/- \n\n*33,030/-"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Boys Hostel Direct Second Year"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Type B \n\nType C"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="*33,030/- \n\n*33,530/-"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Girls Hostel"
+                        android:textColor="#090000"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="*28,730/-"
+                        android:textColor="#090000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Above Fees include yearly Rent, Mess Charge and Deposits."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Facilities Available"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="a) Hot water available \nb) 24 Hrs Electricity supply with the backup of 125KVA Genset \nc) WiFi Hostel Campus \nd) Dispensary \ne)Bank Extension Counter \nf) 24Hrs Security System \ng) 24Hrs Filtered Drinking Water is Provided"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mess"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="a)Two well-furnished Messes(Separate Boys and Girls) \nb) Hygienic and quality food is served at reasonable rates"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Cafeteria"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="⦿ Well furnished cafeteria with quality food at reasonable rates "
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/contact__txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="CONTACT DETAILS"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/office_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="OFFICE"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/office_contact_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Mr. Sunil Patil : 9226837300"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/girls__txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="GIRLS HOSTEL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/girls_contact_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Mrs. G.R. Methre : 9922580284"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/boys__txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="BOYS HOSTEL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/boys_contact_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Mr. S M Sangar - 8308112382"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/security_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="SECURITY OFFICER"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/security_contact_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Mrs. P.A. Shevale : 9970130991"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/library_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="TKIET Library"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/glance_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="LIBRARY AT A GLANCE :"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/glance_img"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                app:srcCompat="@drawable/glance" />
+
+            <TextView
+                android:id="@+id/sports_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Annual Sports Day"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sports_day_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Annual Sports day of the year 2014-15 was conducted on 13th March 2015. The Chief Guest for this event was Hon. Shri .Ravindra Khade [Sub-Divisional Officer Shauwadi - Panhala]. The principal Dr.S.V.Anekar, The Vice-Principal Dr.S.S.Joshi, Prof. B.I.Kurane Sir [Sports Committee Coordinator] also present for this event. Prof. B.I.Kurane Sir has given Summary of various events organized in the academic year 2014-15; Chief Guest shares his memory regarding sports achievements, The students have been awarded for their sports achievements by the hands of dignitaries.\n\n	The most prestigious General championship is awarded to Civil Department. The Sports G.S. Chaitanya Kamble gives vote of thanks to all the dignitaries and congratulates all the winners."
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/sport_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/sports" />
+
+            <TextView
+                android:id="@+id/principle_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Hon. Shri. Ravindra Khade addressing the students on Annual Sports Day."
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/gymkhana_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="GymKhana Staff"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gymkhana_img"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                app:srcCompat="@drawable/gymkhana" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

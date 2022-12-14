@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "865726976171",
+    "firebase_url": "https://tkiet-ebfa4-default-rtdb.firebaseio.com",
+    "project_id": "tkiet-ebfa4",
+    "storage_bucket": "tkiet-ebfa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865726976171:android:cb06e232a2c8f1652267ee",
+        "android_client_info": {
+          "package_name": "com.androtechbuddy.collegeapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865726976171-fj2uusib4trr751glf9ia9uhtoc7uqnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuqheV8xro4RlGaUvcqoC0isjwXLraK9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865726976171-fj2uusib4trr751glf9ia9uhtoc7uqnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865726976171:android:b4fddf5295b24ece2267ee",
+        "android_client_info": {
+          "package_name": "com.androtechbuddy.tkiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865726976171-9tk41mfm393n7e7sk994i7qiudnbqqsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androtechbuddy.tkiet",
+            "certificate_hash": "b6ef4c853d5120a92b1ac6cc7401e501e0098a6b"
+          }
+        },
+        {
+          "client_id": "865726976171-e7mk5oan4hp1pnei5ql7tg9hn4uqnvhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androtechbuddy.tkiet",
+            "certificate_hash": "dc5e91c6b304c4f05cfaeebaf4df33639fd1db6e"
+          }
+        },
+        {
+          "client_id": "865726976171-fj2uusib4trr751glf9ia9uhtoc7uqnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuqheV8xro4RlGaUvcqoC0isjwXLraK9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865726976171-fj2uusib4trr751glf9ia9uhtoc7uqnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865726976171:android:e0be402337f2a7682267ee",
+        "android_client_info": {
+          "package_name": "com.androtechbuddy.tkietadmin_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865726976171-8r4ovmhd8tq1qs8dm8t2fdidmr1s121k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androtechbuddy.tkietadmin_app",
+            "certificate_hash": "b6ef4c853d5120a92b1ac6cc7401e501e0098a6b"
+          }
+        },
+        {
+          "client_id": "865726976171-fj2uusib4trr751glf9ia9uhtoc7uqnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuqheV8xro4RlGaUvcqoC0isjwXLraK9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865726976171-fj2uusib4trr751glf9ia9uhtoc7uqnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
